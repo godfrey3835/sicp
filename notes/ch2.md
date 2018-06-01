@@ -12,6 +12,7 @@
 ### 2.2.3 Sequences as Conventional Interfaces
 
 ```scheme
+; 算leaves的平方和, 如果leaves的值是奇數的話
 (define (sum-odd-squares tree)
   (cond ((null? tree) 0)
         ((not (pair? tree))
